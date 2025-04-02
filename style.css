@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E0F7FA;
+    color: #006064;
+}
+
+header {
+    /*background-image; TBD*/
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+    position: relative;
+}
+
+.wave {
+    width: 100%;
+    height: 100px;
+    background-image: url("wave.jpg");
+    background-size: 1900px 90px;
+    background-repeat: no-repeat;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #004D40;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #80cbc4;
+    text-decoration: underline;
+}
+
+header nav ul li a:visited {
+    color: #B2DFDB;
+}
+
+main {
+    padding: 20px;
+}
+h1, h2, h3 {
+    background-color: #006064; 
+    color: #ffffff; 
+    padding: 15px;
+    border-radius: 8px; 
+    font-weight: bold; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+
+h2 {
+    font-size: 2rem; 
+}
+
+h3 {
+    font-size: 1.5rem; 
+}
+
+
+.info-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.info-block {
+    background-color: #004D40;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: calc(33% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+}
+
+.info-block h2 {
+    margin-bottom: 15px;
+}
+
+.info-block p {
+    font-size: 1rem;
+}
+.info-block:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-5px); 
+}
+
+
+/* Footer */
+footer {
+    background-color: #004D40;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .info-block {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .info-block {
+        width: 100%;
+    }
+}
