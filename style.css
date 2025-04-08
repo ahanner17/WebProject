@@ -78,12 +78,11 @@ h3 {
     font-size: 1.5rem; 
 }
 
-.image-section { 
+.image-block { 
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-    border: 8px ridge #081E65;
+    height: 30%;
+    width: 30%;
+    border: 8px ridge #004D40;
 }
 
 
