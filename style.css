@@ -12,13 +12,14 @@ body {
 }
 
 header {
-    background-image: url=("ocean_banner.jpg");
+    box-shadow: 0px 0px 30px 30px #E0F7FA inset;
+    background-image: url("ocean_banner.jpg");
+    object-fit: fill;
     height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white;
     font-size: 1.8rem;
     position: relative;
 }
