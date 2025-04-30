@@ -127,6 +127,7 @@ footer {
 
 /*DropDown info*/
 .dropBut {
+    background-color: transparent;
     color: #B2DFDB;
     padding: 15px;
     font-size: 1.8rem;
