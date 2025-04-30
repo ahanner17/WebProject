@@ -7,6 +7,18 @@
         provide developing news and innovation in the plastic pollution world and microplastics.">
     <title>Plastic Pollution | NewsLetter</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function validateForm() {
+            if (document,forms[0].fName.value == "") {
+                alert("Name field cannot be empty.");
+                return false;
+            }
+             if (document,forms[0].lName.value == "") {
+                alert("Name field cannot be empty.");
+                return false;
+            }
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -25,7 +37,7 @@
         <div class="wave">
         </div>
      <p>Want to sign up for our NewsLetter? Fill our the form below to get information and updates related to plastic pollution.</p>
-       <form name="newsletter" method="post" id="newsletter" action="https://webdevbasics.net/scripts/demo.php">     
+       <form name="newsletter" method="post" id="newsletter" action="https://webdevbasics.net/scripts/demo.php" onsubmit="return validateForm();">     
          <label for="fName">First Name:</label> <br>
           <input type="text" name="fName" id="fname" required><br>
 
