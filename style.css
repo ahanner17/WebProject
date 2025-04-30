@@ -135,6 +135,7 @@ footer {
 
 .dropdown {
     position: relative;
+    display: inline-block;
 }
 
 .dropdownCon {
@@ -160,9 +161,6 @@ footer {
     display: block;
 }
 
-.dropdown:hover .dropBut {
-    background-color: #99787e;
-}
 
 
     
