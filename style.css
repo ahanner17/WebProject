@@ -11,6 +11,11 @@ body {
     color: #006064;
 }
 
+main a {
+    text-decoration: none;
+    color: #004D40;
+}
+
 header {
     box-shadow: 0px 0px 30px 30px #E0F7FA inset;
     background-image: url("ocean_banner.jpg");
