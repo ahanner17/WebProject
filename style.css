@@ -11,9 +11,11 @@ body {
     color: #006064;
 }
 
-main a {
+ul li span {
+    cursor: pointer;
+    color: inherit;
     text-decoration: none;
-    color: #004D40;
+    font-weight: bold;
 }
 
 header {
