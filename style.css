@@ -127,7 +127,6 @@ footer {
 
 /*DropDown info*/
 .dropBut {
-    background-color: #006064;
     color: #B2DFDB;
     padding: 15px;
     font-size: 1.8rem;
@@ -136,14 +135,13 @@ footer {
 
 .dropdown {
     position: relative;
-    display: inline-block;
 }
 
 .dropdownCon {
     display: none;
     position: absolute;
     background-color: #006064;
-    min-width: 160px;
+    min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
