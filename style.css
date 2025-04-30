@@ -125,6 +125,50 @@ footer {
     text-align: center;
 }
 
+/*DropDown info*/
+.dropBut {
+    background-color: #006064;
+    color: #B2DFDB;
+    padding: 15px;
+    font-size: 1.8rem;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownCon {
+    display: none;
+    position: absolute;
+    background-color: #006064;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdownCon a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.dropdownCon a:hover {
+    background-color: #00787e;
+}
+
+.dropdown:hover .dropdownCon {
+    display: block;
+}
+
+.dropdown:hover .dropBut {
+    background-color: #00787e;
+}
+
+
+    
+
 
 @media screen and (max-width: 768px) {
     .info-block {
