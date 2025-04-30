@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Details the history of plastic.">
+    <title>Plastic Pollution | History</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="overview.html">Overview</a></li>
+                <li><a href="problems.html">Problems</a></li>
+                <li><a href="solutions.html">Solutions</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="newsletter.html">NewsLetter</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+     <main class="problems">
+        <section class="problem-list">
+            <h1>History</h1>
+            <p>***</p>
+        </section>
+
+        <section class="info-sections">
+            <div class="info-block">
+                <h2>Effects on Humans</h2>
+                <p>***</p>
+            </div>
+            <div class="info-block">
+                <h2>Effects on Wildlife</h2>
+                <p>***ocean and land</p>
+            </div>
+            <div class="info-block">
+                <h2>Effects on Planet</h2>
+                <p>***</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Addison Hanner © 2025</p>
+    </footer>
+</body>
+</html>
