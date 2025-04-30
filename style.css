@@ -131,7 +131,6 @@ footer {
     color: #B2DFDB;
     padding: 15px;
     font-size: 1.8rem;
-    display: inline;
     border: none;
     outline: none;
 }
@@ -139,6 +138,7 @@ footer {
 
 .dropdown {
     position: relative;
+    display: inline-block;
 }
 
 .dropdownCon {
